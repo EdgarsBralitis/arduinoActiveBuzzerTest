@@ -5,7 +5,7 @@ int maxValueRead = 1023;
 int minBuzzingTime = 0; //the higher this is, the more annoying the sound
 int buzzingTime;
 int maxBuzzingTime = 500; //the higher this is, the more annoying the sound
-int pauses[] = {1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597}; //modify this array to set different rythm (all values in milliseconds)
+int pauses[] = {1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597}; //modify this array to set different rhythm (all values in milliseconds)
 int pauseIndex = 0; //this used to point to the needed element of array pauses[]
 
 
